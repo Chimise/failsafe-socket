@@ -1,6 +1,5 @@
 import net from 'node:net';
 import JsonSocket from 'json-socket';
-import FailSafeSocket from './socket.js';
 
 const port = 9838;
 const server = net.createServer();
